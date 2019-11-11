@@ -8,5 +8,5 @@ print(sys.version_info)
 
 # BAG OF WORDS (BOW) aka COUNT VECTORIZER
 vectorizer = CountVectorizer()
-print( vectorizer.fit_transform(corpus).todense() )
+print( vectorizer.fit_transform(corpus).todense() ) #Gives bag of words feature vectors.
 print( vectorizer.vocabulary_ )
